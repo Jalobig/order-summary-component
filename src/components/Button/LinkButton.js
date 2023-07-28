@@ -1,10 +1,10 @@
 import React from 'react'
-import classes from './Button.module.scss'
+import classes from './LinkButton.module.scss'
 
-const Button = (props) => {
+const LinkButton = (props) => {
   return (
     <button className={classes.button}>{props.children}</button>
   )
 }
 
-export default Button
+export default LinkButton

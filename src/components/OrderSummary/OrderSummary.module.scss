@@ -1,0 +1,14 @@
+.summary {
+    width: 80%;
+    margin: 2rem auto;
+    h2{
+        font-weight: 900;
+        color: var(--color-grey-dark);
+    }
+    p{
+        font-size: 1rem;
+        line-height: 1.5;
+        color: var(--color-grey);
+        font-weight: 500;
+    }
+}

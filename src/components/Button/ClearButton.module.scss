@@ -1,0 +1,17 @@
+.button {
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    color: var(--color-grey);
+    font-weight: 700;
+    transition: all .3s;
+    margin-bottom: 1rem;
+    @media only screen and (max-width: 375px) {
+        margin-bottom: 0rem;
+    
+    }
+    &:hover {
+        cursor: pointer;
+        color: var(--color-grey-dark);
+    }
+}

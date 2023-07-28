@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.scss';
+import Card from './components/Card/Card';
+import Footer from './components/Footer/Footer';
+import Display from './components/OrderSummary/Display'
+import OrderSummary from './components/OrderSummary/OrderSummary'
+import classes from './App.module.scss'
+import PatternDesktop from './images/pattern-background-desktop.svg'
+import PatternMobile from './images/pattern-background-mobile.svg'
+import useMediaQuery from './hooks/useMediaQuery';
 
 function App() {
+  const media = useMediaQuery('only screen and (max-width: 375px)')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.bg_app}>
+      <img src={media? PatternMobile: PatternDesktop} alt='Pattern background' />
+    <Card>
+      <Display/>
+      <OrderSummary/>
+    </Card>
+    <Footer />
     </div>
   );
 }

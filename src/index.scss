@@ -1,5 +1,20 @@
-body {
-  margin: 0;
-  font-family: 'Red Hat Display', sans-serif;
+:root {
+  // // Colors
+  // Primary
+  --color-primary: hsl(225, 100%, 94%);
+  --color-secondary: hsl(245, 75%, 52%);
+  --color-secondary-lighter: hsl(245, 56%, 62%);
+  --color-secondary-shadow: hsla(245, 75%, 52%, 0.16);
+  --color-secondary-light: hsla(245, 75%, 52%, 0.021);
+
+  // Neutral
+  --color-primary-light: hsl(225, 100%, 98%);
+  --color-grey: hsl(224, 23%, 55%);
+  --color-grey-dark: hsl(223, 47%, 23%);
 }
 
+body {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--color-primary);
+}

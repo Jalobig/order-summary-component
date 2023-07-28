@@ -1,0 +1,15 @@
+.button{
+    border: none;
+    font-family: inherit;
+    background-color: transparent;
+    color: var(--color-secondary);
+    font-weight: 700;
+    text-decoration: underline;
+    transition: all .3s;
+    &:hover {
+        cursor: pointer;
+        color: var(--color-secondary-lighter);
+        text-decoration: none;
+
+    }
+}

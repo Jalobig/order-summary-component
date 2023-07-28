@@ -1,10 +1,10 @@
 import React from 'react'
-import classes from './Button.module.scss'
+import classes from './ClearButton.module.scss'
 
-const Button = (props) => {
+const ClearButton = (props) => {
   return (
     <button className={classes.button}>{props.children}</button>
   )
 }
 
-export default Button
+export default ClearButton
