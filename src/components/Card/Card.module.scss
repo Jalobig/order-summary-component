@@ -1,16 +1,16 @@
 .card {
-    min-width: 22rem;
+    max-width: 22rem;
     background-color: var(--color-primary-light);
     border-radius: 1.5rem;
     text-align: center;
     overflow: hidden;
     position: absolute;
-    top: 80%;
-    left:50%;
+    top: 15%;
+    left:38vw;
     box-shadow: 1px 1rem 10px var(--color-secondary-shadow);
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 600px) {
         min-width: 21rem;
-        transform: translate(-50%, -20%);
+        left: 2vw;
         
     }
 }
