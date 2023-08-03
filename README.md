@@ -7,6 +7,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -23,6 +24,11 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop design](desktop-design.jpg)
+
+### Links
+
+- Solution URL: [Solution URL](https://github.com/Jalobig/order-summary-component)
+- Live site URL: [Live Site URL](https://Jalobig.github.io/order-summary-component/)
 
 ## My process
 
