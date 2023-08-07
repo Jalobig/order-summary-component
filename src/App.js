@@ -8,10 +8,10 @@ import PatternMobile from './images/pattern-background-mobile.svg'
 import useMediaQuery from './hooks/useMediaQuery';
 
 function App() {
-  const media = useMediaQuery('only screen and (max-width: 375px)')
+  const media = useMediaQuery('only screen and (max-width: 700px)')
   return (
     <div className={classes.bg_app}>
-      <img src={media? PatternMobile: PatternDesktop} alt='Pattern background' />
+      <img src={media? PatternMobile: PatternDesktop} alt='Pattern background' className={classes.background} />
     <Card>
       <Display/>
       <OrderSummary/>
